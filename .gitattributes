@@ -1,16 +1,16 @@
-# Basic .gitattributes for a R repo.
+* linguist-vendored
 
 # Source files
 # ============
-*.Rdata binary
-*.RData binary
-*.rda   binary
-*.rdb   binary
-*.rds   binary
-*.Rd    text
-*.Rdx   binary
-*.Rmd	  text
-*.R  	  text
-*.Rproj text
-*.[Rr]md   linguist-detectable
+*.Rdata binary linguist-vendored=false
+*.RData binary linguist-vendored=false
+*.rda   binary linguist-vendored=false
+*.rdb   binary linguist-vendored=false
+*.rds   binary linguist-vendored=false
+*.Rd    text linguist-vendored=false
+*.Rdx   binary linguist-vendored=false
+*.Rmd	  text linguist-vendored=false
+*.R  	  text linguist-vendored=false
+*.Rproj text linguist-vendored=false
+*.[Rr]md   linguist-detectable linguist-vendored=false
 
