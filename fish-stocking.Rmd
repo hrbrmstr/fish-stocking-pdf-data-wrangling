@@ -61,7 +61,7 @@ xdf |>
   facet_wrap(~county, scales = "free_x") +
   labs(
     x = NULL, y = NULL,
-    title = "Maine Dept of Inland Fisheries and Wildlife Has a Consistent Annnual Fish Stocking Pattern",
+    title = "Maine Dept of Inland Fisheries and Wildlife Has a Consistent Annual Fish Stocking Pattern",
     subtitle = "Each facet shows the number of fish stocking events per-year for a given Maine county",
     caption = "Source: https://www.maine.gov/ifw/fishing-boating/fishing/fish-stocking-report.html"
   ) +
