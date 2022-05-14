@@ -1,3 +1,1 @@
-*.html linguist-vendored
-fish-stocking_files/* linguist-vendored
-reports/* linguist-vendored
+*.html linguist-detectable=false
